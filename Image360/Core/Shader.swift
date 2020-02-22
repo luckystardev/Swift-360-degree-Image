@@ -3,7 +3,6 @@
 //  Image360
 //
 
-
 import Foundation
 
 class Shader {

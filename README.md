@@ -1,10 +1,3 @@
-
-# What is this?
-
-Image360 is a simple stack of Image360Controller + Image360View which allows you to display 360° panoramic images.
- 
-![alt tag](https://raw.githubusercontent.com/wonderfulmobileworld/Swift-360-degree-Image/master/example.gif)
-
 ## How to use it?
 - Create an instance of `Image360Controller` in your code.
 - Set 360° image as `image: UIImage` of just created instance.

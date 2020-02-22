@@ -3,7 +3,6 @@
 //  iOS Example
 //
 
-
 import UIKit
 import Image360
 
@@ -16,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet var angleYSlider: UISlider!
     @IBOutlet var fovSlider: UISlider!
 
-    @IBOutlet var image360Controller: Image360Controller!
+    private var image360Controller: Image360Controller!
 
     @IBOutlet var pictureSegmentedControl: UISegmentedControl!
 
@@ -33,6 +32,8 @@ class ViewController: UIViewController {
                     destination.inertia = image360Controller.inertia
                     destination.pictureIndex = pictureSegmentedControl.selectedSegmentIndex
                     destination.isOrientationViewHidden = image360Controller.isOrientationViewHidden
+                    destination.isDeviceMotionControlEnabled = image360Controller.isDeviceMotionControlEnabled
+                    destination.isGestureControlEnabled = image360Controller.isGestureControlEnabled
                 }
             default:
                 ()
@@ -56,6 +57,8 @@ class ViewController: UIViewController {
         image360Controller.inertia = settingsController.inertia
         pictureSegmentedControl.selectedSegmentIndex = settingsController.pictureIndex
         image360Controller.isOrientationViewHidden = settingsController.isOrientationViewHidden
+        image360Controller.isDeviceMotionControlEnabled = settingsController.isDeviceMotionControlEnabled
+        image360Controller.isGestureControlEnabled = settingsController.isGestureControlEnabled
         segmentChanged(sender: pictureSegmentedControl)
     }
 
@@ -76,7 +79,7 @@ class ViewController: UIViewController {
             if let image = UIImage(data: data) {
                 self.image360Controller.image = image
             } else {
-                NSLog("liveView - frameData is not image")
+                NSLog("ViewController.segmentChanged - data is not an image")
             }
         } catch  {
 

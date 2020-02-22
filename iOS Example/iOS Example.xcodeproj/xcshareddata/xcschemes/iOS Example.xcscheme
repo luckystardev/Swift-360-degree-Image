@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0940"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "200F86881E227581008DF555"
-               BuildableName = "Image360.framework"
-               BlueprintName = "Image360"
-               ReferencedContainer = "container:Image360.xcodeproj">
+               BlueprintIdentifier = "200F86B21E227891008DF555"
+               BuildableName = "iOS Example.app"
+               BlueprintName = "iOS Example"
+               ReferencedContainer = "container:iOS Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "200F86B21E227891008DF555"
+            BuildableName = "iOS Example.app"
+            BlueprintName = "iOS Example"
+            ReferencedContainer = "container:iOS Example.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "200F86881E227581008DF555"
-            BuildableName = "Image360.framework"
-            BlueprintName = "Image360"
-            ReferencedContainer = "container:Image360.xcodeproj">
+            BlueprintIdentifier = "200F86B21E227891008DF555"
+            BuildableName = "iOS Example.app"
+            BlueprintName = "iOS Example"
+            ReferencedContainer = "container:iOS Example.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,15 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "200F86881E227581008DF555"
-            BuildableName = "Image360.framework"
-            BlueprintName = "Image360"
-            ReferencedContainer = "container:Image360.xcodeproj">
+            BlueprintIdentifier = "200F86B21E227891008DF555"
+            BuildableName = "iOS Example.app"
+            BlueprintName = "iOS Example"
+            ReferencedContainer = "container:iOS Example.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -3,7 +3,6 @@
 //  Image360
 //
 
-
 #import <UIKit/UIKit.h>
 
 //! Project version number for Image360.
